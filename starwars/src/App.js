@@ -8,6 +8,10 @@ class App extends Component {
     this.state = {
       starwarsChars: [],
       name: "",
+      url: "", 
+      gender:"",
+      homeworld: '',
+      created: '',
     };
   }
 
@@ -40,7 +44,9 @@ class App extends Component {
         <h1 className="Header">React Wars</h1>
         <CharList 
         char = {this.state.starwarsChars}
+        created = {this.state.created}
         name={this.state.name} 
+        gender={this.state.gender}
         />
       </div>
     );

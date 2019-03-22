@@ -9,7 +9,13 @@ function CharList (props) {
     return (
         <div className = "characters">
             {props.char.map(characters => (
-                <Character char={characters} name={characters.name} />
+                <Character 
+                char={characters} 
+                created={characters.created}
+                name={characters.name} 
+                gender={characters.gender}
+
+                />
             ))}
         </div>
     )
