@@ -1,0 +1,21 @@
+.characterStyle{
+    padding: 1rem; 
+    background-color: rgba 0 0 0 0; 
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    border: 5px solid black;
+    color: rgb(88, 88, 88);
+    box-shadow: 0px 0px 20px grey;
+}
+
+.characterStyle:hover {
+    background-color: white;
+    color: black;
+}
+
+
+h3{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
